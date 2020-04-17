@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int ta,da,bs,gs;
+clrscr();
+printf("enter the bs ");
+scanf("%d",&bs);
+ta=(12*bs)/100;
+da=(10*bs)/100;
+gs=ta+da+bs;
+printf("gross salary=%d",gs);
+getch();
+}
