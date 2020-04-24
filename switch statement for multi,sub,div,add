@@ -1,0 +1,40 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,n,s,m,d,su;
+clrscr();
+printf("enter the two numbers");
+scanf("%d%d",&a,&b);
+printf("enter 1 for sum \n 2 for subtraction \n 3 for multiplication \n 4 for division \n");
+scanf("%d",&n);
+switch(n)
+{
+case 1:
+s=a+b;
+printf("sum=%d",s);
+break;
+
+case 2:
+su=a-b;
+printf("subtraction=%d",su);
+break;
+
+case 3:
+m=a*b;
+printf("multiplication=%d",d);
+break;
+
+case 4:
+d=a/b;
+printf("division=%d",d);
+break;
+
+default:
+printf("wrong input");
+break;
+
+}
+getch();
+}
+
